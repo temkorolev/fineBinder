@@ -193,8 +193,8 @@ small {
 }
 .valuesBox {
    width: 100%;
-   min-height: 420px;
-   margin-top: 100px;
+   min-height: 400px;
+   margin-top: 70px;
 }
 .valuesBox h3 {
    font-size: 30px;
@@ -1159,6 +1159,7 @@ small {
       height: 100%;
       min-height: 250px;
       padding: 0 30px;
+      margin-top: 20px;
       margin-bottom: 30px;
    }
    .certifyBox {
@@ -1167,6 +1168,8 @@ small {
       align-items: center;
       width: 100%;
       min-height: 700px;
+      margin-top: 20px;
+      margin-bottom: 30px;
    }
    .certifyDiagram {
       display: flex;
@@ -1461,7 +1464,7 @@ small {
    }
    .certify {
       width: 100%;
-      min-height: 530px;
+      min-height: 500px;
    }
    .certifyBox {
       display: flex;
@@ -1512,7 +1515,7 @@ small {
    }
    .integration {
       width: 100%;
-      min-height: 500px;
+      min-height: 450px;
    }
    .integrationBox {
       display: flex;
@@ -1531,6 +1534,15 @@ small {
       padding: 10px;
       order: 2;
    }
+   .integrationContent h3 {
+      font-size: 25px;
+      line-height: 25px;
+   }
+   .interviewContent h3 {
+      font-size: 25px;
+      line-height: 25px;
+      color: #000000;
+   }
    .detailStatistic img {
       display: block;
       width: 100%;
@@ -1540,7 +1552,7 @@ small {
      justify-content: space-between;
      align-items: center;
      width: 100%;
-     min-height: 550px;
+     min-height: 500px;
      margin-bottom: 20px;
   }
   .integrationContent {
