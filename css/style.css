@@ -3,7 +3,9 @@
 /* Fonts
    1. font-family: 'Play', sans-serif;
 */
-
+html, body {
+   height: 100%;
+}
 *,*::before, *::after {
    box-sizing: border-box;
 }
@@ -17,6 +19,9 @@ body {
    background-color: #E5E5E5;
    margin-left: auto;
    margin-right: auto;
+}
+.wrapper {
+   height: 100%;
 }
 nav ul {
    list-style: none;
