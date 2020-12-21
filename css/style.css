@@ -332,6 +332,7 @@ small {
    padding: 16px 64px;
    text-decoration: none;
    font-size: 16px;
+   margin-bottom: 20px;
 }
 .worksBox .btn {
    border: 1px solid #fff;
@@ -439,6 +440,9 @@ small {
    margin-bottom: 40px;
 }
 .btn {
+   display: flex;
+   justify-content: center;
+   width: 70%;
    font-size: 16px;
    color: #000000;
    padding: 16px 64px;
@@ -545,18 +549,18 @@ small {
 
 .integrationDiagram img {
    display: block;
-   width: 50%;
+   width: 100%;
 }
 .detailStatistic {
    width: 40%;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: center;
    align-items: center;
 }
 .detailStatistic img {
    display: block;
-   width: 90%;
+   width: 100%;
 }
 .integrationContent {
    width: 33%;
@@ -770,6 +774,13 @@ small {
       color: #000000;
       border-bottom: 1px solid #094035;
    }
+   .detailStatistic {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1140px) {
@@ -805,6 +816,13 @@ small {
    .title {
       width: 65%;
       height: auto;
+   }
+   .detailStatistic {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
    }
 }
 
@@ -969,7 +987,7 @@ small {
       width: 60%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
    }
    #testing input {
@@ -1380,7 +1398,6 @@ small {
       width: 100%;
       height: auto;
    }
-
    .worksBox h3 {
       font-size: 25px;
       line-height: 20px;
@@ -1487,7 +1504,6 @@ small {
       min-height: 400px;
    }
    .integrationDiagram {
-      margin-top: 20px;
       display: flex;
       justify-content: center;
       width: 100%;
