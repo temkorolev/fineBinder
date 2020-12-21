@@ -335,6 +335,7 @@ small {
    margin-bottom: 20px;
 }
 .worksBox .btn {
+   width: 30%;
    border: 1px solid #fff;
    color: #fff;
 }
@@ -820,6 +821,11 @@ small {
       width: 65%;
       height: auto;
    }
+   .worksBox .btn {
+      width: 40%;
+      border: 1px solid #fff;
+      color: #fff;
+   }
    .detailStatistic {
       width: 60%;
       display: flex;
@@ -978,6 +984,11 @@ small {
    .integrationContent {
       width: 43%;
       height: auto;
+   }
+   .worksBox .btn {
+      width: 40%;
+      border: 1px solid #fff;
+      color: #fff;
    }
    .integrationContent p {
       font-size: 16px;
@@ -1219,6 +1230,11 @@ small {
       width: 100%;
       height: auto;
       order: 1;
+   }
+   .worksBox .btn {
+      width: 40%;
+      border: 1px solid #fff;
+      color: #fff;
    }
    .detailStatistic:first-child {
       margin-right: 10px;
@@ -1597,5 +1613,10 @@ small {
    }
     .btn {
       color: #000000;
+   }
+   .worksBox .btn {
+      width: 100%;
+      border: 1px solid #fff;
+      color: #fff;
    }
 }
