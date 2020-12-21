@@ -490,9 +490,12 @@ small {
    display: flex;
    justify-content: space-between;
 }
+.statleft {
+   margin-right: 15px;
+}
 .detailStat img {
    display: block;
-   width: 40%;
+   width: 100%;
 }
 .detailStatistic:first-child {
    margin-right: 10px;
