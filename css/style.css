@@ -550,7 +550,6 @@ small {
    background-color: #fff;
    padding: 60px 30px;
 }
-
 .integrationDiagram img {
    display: block;
    width: 100%;
@@ -561,6 +560,9 @@ small {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+}
+.rating {
+   margin-bottom: 20px;
 }
 .detailStatistic img {
    display: block;
